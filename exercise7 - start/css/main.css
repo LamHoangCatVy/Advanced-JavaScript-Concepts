@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,100italic|Roboto+Mono:400,100italic,700);
+
+#logo {
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+#logo img {
+    width: 150px;
+    position: absolute;
+    right: 50px;
+}
+
+.question {
+    margin: auto;
+    width: 80%;
+    padding-top: 10rem;
+    position: relative;
+}
+
+h2.question-text {
+    color: #024656;
+    font-family: 'Roboto';
+    /*padding-top: 20%;*/
+    padding-bottom: 3%;
+    font-size: 1.8em;
+    font-weight: 100;
+    font-style: italic;
+}
+
+textarea.fill-in {
+    width: 100%;
+    min-height: 20vh;
+    background: #EEE;
+    border: none;
+    border-radius: 0;
+    resize: none;
+    border: none;
+    overflow: auto;
+    outline: none;
+    padding: 1rem 1.5rem;
+    color: #444;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-bottom: 2rem;
+    box-sizing: border-box;         /* For IE and modern versions of Chrome */
+    -moz-box-sizing: border-box;    /* For Firefox                          */
+    -webkit-box-sizing: border-box; /* For Safari                           */
+}
+
+textarea.fill-in:active,
+textarea.fill-in:focus {
+    outline: none;
+    border: none;
+}
+
+button.fill-in-submit {
+    display: inline-block;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    /*float: right;*/
+    z-index: 10;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    font-size: 1em;
+    padding: 1em 2em;
+    border-radius: 2.5px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-appearance: button;
+    /*display: inline-block;*/
+    font-weight: 400;
+    background: linear-gradient(to bottom right, #024656, #035767 50%);
+    color: #fff;
+    line-height: 0;
+    border: none;
+    letter-spacing: -0.05em;
+    text-transform: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: opacity 1s ease-in-out;
+       -moz-transition: opacity 1s ease-in-out;
+        -ms-transition: opacity 1s ease-in-out;
+         -o-transition: opacity 1s ease-in-out;
+            transition: opacity 1s ease-in-out;
+}
+
+.feedback {
+    opacity: 0;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    color: c81900;
+    font-size: 1.2em;
+    font-family: 'Roboto';
+    -webkit-transition: opacity 1s ease-in-out;
+       -moz-transition: opacity 1s ease-in-out;
+        -ms-transition: opacity 1s ease-in-out;
+         -o-transition: opacity 1s ease-in-out;
+            transition: opacity 1s ease-in-out;
+}
+
+.feedback.no-answer {
+    padding-left: 20px;
+}
+
+.feedback.correct span {
+    padding-left: 20px;
+    color: green;
+    font-size: 3em;
+}
+
+.feedback.incorrect span {
+    padding-left: 20px;
+    color: red;
+    font-size: 3em;
+}
+
+.feedback p {
+    height: 3.2em;
+    display: table-cell;
+}
+
+.feedback p span {
+    vertical-align: middle;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+}
+
+
+

@@ -1,0 +1,8 @@
+//Heading
+//Steps for Using the XMLHttpRequest Object
+//Bullets
+//Create a new object.
+//Change the Mime type to json.
+//Use the open method and specify the http verb and file path.
+//Define a callback for the request.
+//Send the request.
