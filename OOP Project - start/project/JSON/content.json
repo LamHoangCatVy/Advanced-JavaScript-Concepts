@@ -1,0 +1,57 @@
+{
+    "buttonText": "Submit",
+    "questions": [
+        {
+            "id": "q01",
+            "type": "fill-in",
+            "questionText": "Enter the primitive data types available in JavaScript.",
+            "distractors": [],
+            "correctResp": "string,number,boolean,null, undefined, symbol", 
+            "feedback": {
+                "noAnswer": "Please provide an answer first.",
+                "correctAnswer": "Well done! That is the correct response.",
+                "wrongAnswer": "Not quite. There are 6 total primitive types. A new one was added with ES6."
+            },
+            "weight": 1
+        },
+        {
+            "id": "q02",
+            "type": "multi-choice",
+            "questionText": "Which keyword is used to declare block-scoped variables?",
+            "distractors": ["var", "const", "let", "no declaration keyword"],
+            "correctResp": "let",
+            "feedback": {
+                "noAnswer": "Please provide an answer first.",
+                "correctAnswer": "Well done! That is the correct response.",
+                "wrongAnswer": "Sorry, that is inccorrect. let allows you to declare block-scoped variables."
+            },
+            "weight": 1
+        },
+        {
+            "id": "q03",
+            "type": "true-false",
+            "questionText": "Everything in JavaScript with the exception of primitive values are objects.",
+            "distractors": ["true", "false"],
+            "correctResp": "true",
+            "feedback": {
+                "noAnswer": "Please provide an answer first.",
+                "correctAnswer": "Well done! That is the correct response.",
+                "wrongAnswer": "Sorry, that is inccorrect."
+            },
+            "weight": 1
+        },
+        {
+            "id": "q04",
+            "type": "fill-in",
+            "questionText": "What command is used to convert an object to a JSON string?",
+            "distractors": [],
+            "correctResp": "JSON.stringify", 
+            "feedback": {
+                "noAnswer": "Please provide an answer first.",
+                "correctAnswer": "Well done! That is the correct response.",
+                "wrongAnswer": "Not quite. Using the JSON object, you access the stringify method: JSON.stringify()."
+            },
+            "weight": 1
+        }
+    ]
+}
