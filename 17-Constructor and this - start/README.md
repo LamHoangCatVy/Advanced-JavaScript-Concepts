@@ -1,0 +1,1 @@
+-- The purpose of a constructor is to create similar objects
