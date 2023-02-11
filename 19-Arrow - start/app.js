@@ -12,7 +12,7 @@ var user2 = {
 };
 
 var fullName = function() {
-    setTimeout(function() {
+    setTimeout(() => {
         console.log(this.firstName + " " + this.lastName);
     }, 2000);
 };
